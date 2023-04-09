@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "your-project-name"
+version = "0.1.0"
+description = "Your project description here"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+# Add your dependencies here, e.g.
+transformers = "^4.11.3"
+torch = "^1.9.0"
+opencv-python-headless = "^4.7.0.72"
+accelerate = "^0.18.0"
+scipy = "^1.10.1"
+safetensors = "^0.3.0"
+diffusers = "^0.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+# Add other dev dependencies here, e.g.
+# black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
